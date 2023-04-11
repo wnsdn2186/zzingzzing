@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/MainLogoImg"
+        android:id="@+id/imgMainLogo"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/main_logo"
@@ -18,12 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:text="Copyrightⓒ2023 JUNU All rights reserved."
+        android:text="Copyright ⓒ 2023 JUNU All rights reserved."
         android:textColor="@color/grey"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/MainLogoImg" />
+        app:layout_constraintTop_toBottomOf="@id/imgMainLogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

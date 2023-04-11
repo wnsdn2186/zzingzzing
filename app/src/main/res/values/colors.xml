@@ -10,4 +10,10 @@
     <color name="orange">#FEAA4D</color>
     <color name="red">#E03C31</color>
     <color name="grey">#cccccc</color>
+    <color name="main_red">#c00200</color>
+    <color name="main_yellow">#fec000</color>
+    <color name="light_grey">#f3f3f3</color>
+    <color name="beige">#FEFAE0</color>
+    <color name="pink">#FDF4F5</color>
+    <color name="hot_pink">#FF9F9F</color>
 </resources>
