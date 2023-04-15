@@ -98,6 +98,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcCollectTelList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
@@ -135,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="12dp"
                     android:fontFamily="@font/neodunggeunmopro_regular"
-                    android:text="문자 목록"
+                    android:text="메세지 목록"
                     android:textColor="@color/main_red"
                     android:textSize="20sp"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -151,6 +152,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcCollectMessageList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
