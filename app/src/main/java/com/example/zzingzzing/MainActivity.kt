@@ -4,6 +4,9 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.zzingzzing.Fragment.CollectFragment
+import com.example.zzingzzing.Fragment.MessageListFragment
+import com.example.zzingzzing.Fragment.TelListFragment
 import com.example.zzingzzing.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

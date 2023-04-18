@@ -7,7 +7,7 @@
     android:background="@color/pink"
     android:orientation="vertical"
     android:theme="@style/Theme.Zzingzzing"
-    tools:context=".CollectFragment">
+    tools:context=".Fragment.CollectFragment">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
