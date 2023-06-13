@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.zzingzzing.AppApplication
+import com.example.zzingzzing.ViewModel.AppViewModel
+import com.example.zzingzzing.ViewModel.AppViewModelFactory
 import com.example.zzingzzing.databinding.FragmentTelListBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -14,12 +17,16 @@ private const val ARG_PARAM2 = "param2"
 
 class TelListFragment : Fragment() {
     private lateinit var binding: FragmentTelListBinding
+    private var appViewModel : AppViewModel by viewModels<AppViewModel> {
+        AppViewModelFactory((requireActivity().application as AppApplication).repository)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentTelListBinding.inflate(inflater, container, false)
+
         return binding.root
     }
 }

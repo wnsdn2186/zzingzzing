@@ -7,6 +7,8 @@ import android.widget.Toast
 import com.example.zzingzzing.Fragment.CollectFragment
 import com.example.zzingzzing.Fragment.MessageListFragment
 import com.example.zzingzzing.Fragment.TelListFragment
+import com.example.zzingzzing.ViewModel.AppViewModel
+import com.example.zzingzzing.ViewModel.AppViewModelFactory
 import com.example.zzingzzing.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
